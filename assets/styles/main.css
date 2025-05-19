@@ -1,10 +1,19 @@
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+/* Dark theme styles */
+body.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
-header, footer {
-  padding: 1rem;
+body.dark-theme header {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+body.dark-theme footer {
+  background-color: #1e1e1e;
+  border-top: 1px solid #333;
+}
+
+body.dark-theme a {
+  color: #bb86fc;
 }
